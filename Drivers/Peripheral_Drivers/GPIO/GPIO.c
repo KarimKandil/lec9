@@ -18,6 +18,7 @@ void GPIO_Init(GPIO_Struct *Port, GPIO_Config_t *conf)
 	/// From the reference manual (P 161, P 171),
 	/// every GPIO pin can be
 	/// configured through 4 bits
+	/// 12345678903234567890
 	uint32_t Config_Data;
 
 	switch (conf->Mode)
